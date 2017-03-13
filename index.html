@@ -251,8 +251,15 @@
             slidesToShow: 1,
             focusOnSelect: true,
             infinite: false,
-            initialSlide: 0
-
+            initialSlide: 0,
+            responsive: [
+              {
+                breakpoint: 1200,
+                settings: {
+                  centerPadding: '5%',
+                }
+              }
+            ]
           });
         });
         </script>

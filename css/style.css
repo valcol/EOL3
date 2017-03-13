@@ -316,13 +316,23 @@ hr.menu {
 }
 
 .image-slider-container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .slider-container img {
     width:100%;
     height: auto;
+}
+
+@media(min-width:1200px) {
+
+  .image-slider-container {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+
+
 }
 
 .feature-media {
