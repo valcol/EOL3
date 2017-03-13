@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,200');
 
 body {
     color: #333;
@@ -24,7 +24,7 @@ h2 {
     margin-right: 0;
     font-size: 58px;
     line-height: 0.8;
-    font-family:  'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
 }
 
