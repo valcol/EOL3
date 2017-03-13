@@ -91,14 +91,12 @@ hr.menu {
     -webkit-transition: all .90s;
     -moz-transition: all .90s;
     transition: all .90s;
-    min-height: 65px;
-    text-align: center;
 }
 
 
 .navbar-default img{
     height: 50px;
-    margin-top: 7px;
+    padding: 10px;
     -webkit-transition: all .40s;
     -moz-transition: all .40s;
     transition: all .40s;
