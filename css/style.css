@@ -553,14 +553,24 @@ hr {
     padding: 0;
 }
 
+/*----Footer----*/
 .footer {
- text-align: center;
- padding-bottom: 30px;
+   text-align: center;
+   padding-bottom: 30px;
 }
 
 .logo-footer {
-  width:120px;
-  margin: 10px;
+    width:70px;
+    margin: 10px;
+}
+
+@media(min-width:1200px) {
+
+  .logo-footer {
+      width:120px;
+      margin: 10px;
+  }
+
 }
 
 @media(min-width:1200px) {
