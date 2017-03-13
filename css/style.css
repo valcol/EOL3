@@ -310,6 +310,7 @@ hr.menu {
 .slider-container {
     width:100%;
     height: auto;
+    overflow: hidden;
 }
 
 .image-slider-container {
