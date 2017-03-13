@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 body {
-
     color: #333;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
@@ -43,8 +42,8 @@ h3 {
 hr.separator {
     border: 0;
     height: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -128,12 +127,16 @@ hr.menu {
     text-decoration: underline;
 }
 
-.navbar-default .nav .activ a{
-    color: #999;
+.navbar-default .navbar-toggle {
+    border: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color:#999;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
 }
 
 .navbar-default  i {
@@ -191,7 +194,8 @@ hr.menu {
     }
 
     .navbar-default img{
-        margin-top: -7px;
+        height: 100%;
+        padding: 0;
     }
 
     #features .navbar-default img{
