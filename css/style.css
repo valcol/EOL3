@@ -150,6 +150,10 @@ hr.menu {
 .fa-twitter{
     color:#55acee;
 }
+
+.fa-envelope{
+    color:white;
+}
 /*---Large screen---*/
 
 @media(min-width:1200px) {
