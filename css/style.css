@@ -269,18 +269,19 @@ hr.menu {
 .image-container {
     width:100%;
     height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .image-container img{
-    width:90%;
-    height: auto;
-    margin-left: 5%;
     margin-bottom: 50px;
 }
 
 .image-container-med {
     width:100%;
     height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .image-container-med img{
@@ -302,7 +303,6 @@ hr.menu {
 .image-container video{
     width:90%;
     height: auto;
-    margin-left: 5%;
     margin-bottom: 50px;
 }
 
@@ -327,17 +327,9 @@ hr.menu {
 .slider-container img {
     width:100%;
     height: auto;
+    max-width: 1440px;
 }
 
-@media(min-width:1200px) {
-
-  .image-slider-container {
-      margin-left: 50px;
-      margin-right: 50px;
-  }
-
-
-}
 
 .feature-media {
     width:100%;
@@ -414,9 +406,8 @@ hr.menu {
 
     .image-container img{
         width:60%;
-        height: auto;
-        margin-left: 20%;
         margin-bottom: 50px;
+        max-width: 1440px;
     }
 
     .image-container-med {
@@ -428,15 +419,21 @@ hr.menu {
     .image-container-med img{
         width:80%;
         height: auto;
-        margin-left: 10%;
         margin-bottom: 50px;
+        max-width: 1440px;
     }
 
     .image-container video{
         width:60%;
         height: auto;
-        margin-left: 20%;
         margin-bottom: 50px;
+        max-width: 1440px;
+    }
+
+    .image-container-full img{
+        width:100%;
+        height: auto;
+        max-width: 1920px;
     }
 
 }
@@ -511,6 +508,7 @@ hr.menu {
   .sketchfab-embed-wrapper {
     width: 100vw;
     height:40vw;
+    width: 1920px:
   }
 
 }
